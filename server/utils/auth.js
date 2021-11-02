@@ -37,6 +37,7 @@ module.exports  = {
         }
         return req;
     },
+    //y dis here twice? girl wth is wrong with u
     signToken: function({ username, email, _id }) {
         const payload = { username, email, _id };
     
